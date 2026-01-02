@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>uhoh.im - ICQ Message Simulator & Tribute</title>
@@ -8,8 +8,10 @@
 
   <!-- === 1. Primary Meta Tags === -->
   <meta name="title" content="uhoh.im - ICQ Message Simulator & Tribute">
-  <meta name="description" content="An interactive tribute to the classic ICQ messenger. Experience the nostalgia of 'Uh Oh!' sounds, UINs, and the iconic chat window.">
-  <meta name="keywords" content="ICQ, uh oh, instant messenger, chat, nostalgia, 90s internet, UIN, web 1.0, retro, simulator">
+  <meta name="description"
+    content="An interactive tribute to the classic ICQ messenger. Experience the nostalgia of 'Uh Oh!' sounds, UINs, and the iconic chat window.">
+  <meta name="keywords"
+    content="ICQ, uh oh, instant messenger, chat, nostalgia, 90s internet, UIN, web 1.0, retro, simulator">
   <meta name="author" content="uhoh.im (An unearth.im Project)">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -25,7 +27,8 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://uhoh.im/index.html">
   <meta property="og:title" content="uhoh.im - ICQ Message Simulator & Tribute">
-  <meta property="og:description" content="An interactive tribute to the classic ICQ messenger. Experience the nostalgia of 'Uh Oh!' sounds, UINs, and the iconic chat window.">
+  <meta property="og:description"
+    content="An interactive tribute to the classic ICQ messenger. Experience the nostalgia of 'Uh Oh!' sounds, UINs, and the iconic chat window.">
   <meta property="og:image" content="https://uhoh.im/og-image.png">
   <meta property="og:site_name" content="uhoh.im">
 
@@ -33,10 +36,112 @@
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://uhoh.im/index.html">
   <meta property="twitter:title" content="uhoh.im - ICQ Message Simulator & Tribute">
-  <meta property="twitter:description" content="An interactive tribute to the classic ICQ messenger. Experience the nostalgia of 'Uh Oh!' sounds, UINs, and the iconic chat window.">
+  <meta property="twitter:description"
+    content="An interactive tribute to the classic ICQ messenger. Experience the nostalgia of 'Uh Oh!' sounds, UINs, and the iconic chat window.">
   <meta property="twitter:image" content="https://uhoh.im/og-image.png">
 
-  <!-- === 5. Favicons === -->
+  <!-- === 5. Schema.org Structured Data === -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "VisualArtwork", 
+        "@id": "https://uhoh.im/#artwork",
+        "url": "https://uhoh.im",
+        "name": "uhoh.im",
+        "headline": "ICQ Message Simulator & Digital Monument",
+        "description": "An interactive tribute to the classic ICQ messenger, preserving the sounds, interface, and cultural legacy of early instant messaging.",
+        "image": "https://uhoh.im/og-image.png",
+        "artMedium": "Interactive HTML/JavaScript/CSS",
+        "artForm": "Digital Monument",
+        "genre": "Internet Archaeology",
+        "copyrightYear": "2025",
+        "inLanguage": "en-US",
+        "author": [
+          { "@id": "https://josiest.com/#person" },
+          { "@id": "https://felixvelas.co/#person" }
+        ],
+        "creator": [
+          { "@id": "https://josiest.com/#person" },
+          { "@id": "https://felixvelas.co/#person" }
+        ],
+        "publisher": { "@id": "https://unearth.im/#organization" },
+        "isPartOf": { "@id": "https://unearth.im/#collection" },
+        "mainEntityOfPage": { "@id": "https://uhoh.im/#website" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://uhoh.im/#website",
+        "url": "https://uhoh.im",
+        "name": "uhoh.im",
+        "publisher": { "@id": "https://unearth.im/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://unearth.im/#organization",
+        "name": "Unearth Heritage Foundry",
+        "alternateName": ["Unearth Foundry", "Archive & Anvil"],
+        "url": "https://unearth.im",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://unearth.im/fingerprint.png"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://josiest.com/#person",
+        "name": "Josie Jefferson",
+        "url": "https://josiest.com",
+        "jobTitle": "Co-Founder & Digital Archaeologist",
+        "memberOf": { "@id": "https://unearth.im/#organization" },
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "ICQ-UIN",
+            "name": "Legacy Web1 Identifier",
+            "value": "1428955",
+            "description": "Seven-digit pioneer-era UIN from the 1997 Mirabilis ICQ network, serving as a foundational node in the author's digital provenance."
+          }
+        ],
+        "sameAs": [ 
+          "https://orcid.org/0009-0006-3330-8214",
+          "https://notjojo.im",
+          "https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Jefferson%2C%20Josie%22&l=list&p=1&s=10&sort=bestmatch",
+          "https://unearth.im/josie.html",
+          "https://unearth.name/josie.html"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://felixvelas.co/#person",
+        "name": "Felix Velasco",
+        "url": "https://felixvelas.co",
+        "jobTitle": "Co-Founder & Digital Archaeologist",
+        "memberOf": { "@id": "https://unearth.im/#organization" },
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "ICQ-UIN",
+            "name": "Legacy Web1 Identifier",
+            "value": "641658",
+            "description": "Six-digit pioneer-era UIN from the 1997 Mirabilis ICQ network, serving as a foundational node in the author's digital provenance."
+          }
+        ],
+        "sameAs": [
+          "https://web.archive.org/web/19990128143729/http://members.aol.com/AJJVelasco/me.html",
+          "https://orcid.org/0009-0001-6047-0595",
+          "https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Velasco%2C%20Felix%22&l=list&p=1&s=10&sort=bestmatch",
+          "https://www.linkedin.com/in/felix-velasco-b793015",
+          "https://unearth.im/felix.html",
+          "https://unearth.name/felix.html"
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- === 6. Favicons === -->
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="alternate icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -49,19 +154,22 @@
       background: #010080;
       color: #e5e5e5;
       font-family: Verdana, sans-serif;
-      margin: 0; padding: 0;
+      margin: 0;
+      padding: 0;
     }
+
     .icq-window {
       max-width: 350px;
       margin: 40px auto 10px;
       background: #eefbe2;
       border: 2px solid #388f38;
       border-radius: 8px;
-      box-shadow: 0 0 18px rgba(0,0,0,0.15);
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.15);
       font-size: 14px;
       color: #333;
       position: relative;
     }
+
     .icq-header {
       background: linear-gradient(90deg, #388f38 85%, #fdee00 100%);
       color: white;
@@ -72,11 +180,13 @@
       gap: 10px;
       font-weight: bold;
     }
+
     .status-flower {
       width: 20px;
       height: 20px;
       transition: filter 0.3s ease;
     }
+
     .icq-chat {
       padding: 12px;
       min-height: 140px;
@@ -86,110 +196,249 @@
       border-top: 1px solid #b8d5a6;
       color: #333;
     }
+
     .msg {
       margin-bottom: 8px;
       font-family: 'Courier New', monospace;
     }
-    .sender { color: #388f38; font-weight: bold; }
-    .timestamp { font-size: 11px; margin-left: 6px; color: #b8d5a6; }
-    .system-msg { font-style: italic; color: #888; font-size: 12px; text-align: center; margin: 8px 0; }
+
+    .sender {
+      color: #388f38;
+      font-weight: bold;
+    }
+
+    .timestamp {
+      font-size: 11px;
+      margin-left: 6px;
+      color: #b8d5a6;
+    }
+
+    .system-msg {
+      font-style: italic;
+      color: #888;
+      font-size: 12px;
+      text-align: center;
+      margin: 8px 0;
+    }
+
     .icq-input-row {
-      display: flex; gap: 6px;
+      display: flex;
+      gap: 6px;
       border-top: 1px solid #b8d5a6;
       padding: 10px 12px;
       background: #eeffe0;
     }
+
     input.icq-input {
-      flex: 1; padding: 6px; border: 1px solid #a5c864; border-radius: 3px; font-size: 13px;
+      flex: 1;
+      padding: 6px;
+      border: 1px solid #a5c864;
+      border-radius: 3px;
+      font-size: 13px;
     }
+
     button.icq-send-btn {
-      background: #388f38; color: white; font-weight: bold; border: none; border-radius: 3px;
-      padding: 6px 14px; cursor: pointer;
+      background: #388f38;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 3px;
+      padding: 6px 14px;
+      cursor: pointer;
     }
-    button.icq-send-btn:active { background: #276f27; }
+
+    button.icq-send-btn:active {
+      background: #276f27;
+    }
+
     section {
-      max-width: 350px; margin: 18px auto; font-size: 13px;
-      background: #1a1a60; border: 1px solid #3951a1; border-radius: 6px;
-      padding: 10px 14px; color: #e5e5e5; font-family: Verdana, sans-serif;
+      max-width: 350px;
+      margin: 18px auto;
+      font-size: 13px;
+      background: #1a1a60;
+      border: 1px solid #3951a1;
+      border-radius: 6px;
+      padding: 10px 14px;
+      color: #e5e5e5;
+      font-family: Verdana, sans-serif;
     }
-    h2 { font-family: 'Courier New', monospace; color: #fdee00; margin-top: 0; font-weight: 700; }
+
+    h2 {
+      font-family: 'Courier New', monospace;
+      color: #fdee00;
+      margin-top: 0;
+      font-weight: 700;
+    }
+
     .footer-plaque {
-      text-align: center; font-family: 'Courier New', monospace; margin: 40px 0 30px;
-      color: #fdee00; font-size: 11px;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+      margin: 40px 0 30px;
+      color: #fdee00;
+      font-size: 11px;
     }
-    .footer-plaque a { color: #fdee00; text-decoration: underline; }
+
+    .footer-plaque a {
+      color: #fdee00;
+      text-decoration: underline;
+    }
+
     .settings-gear {
-      margin-left: auto; cursor: pointer; fill: white;
-      width: 20px; height: 20px;
+      margin-left: auto;
+      cursor: pointer;
+      fill: white;
+      width: 20px;
+      height: 20px;
     }
+
     .settings-panel {
       position: fixed;
-      top: 50px; right: 20px; background: #eefbe2;
-      border: 2px solid #388f38; border-radius: 7px;
-      box-shadow: 0 0 16px rgba(0,0,0,0.3);
-      padding: 12px; max-width: 280px; z-index: 110;
-      display: none; font-size: 13px; color: #333;
+      top: 50px;
+      right: 20px;
+      background: #eefbe2;
+      border: 2px solid #388f38;
+      border-radius: 7px;
+      box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+      padding: 12px;
+      max-width: 280px;
+      z-index: 110;
+      display: none;
+      font-size: 13px;
+      color: #333;
     }
-    .settings-panel.active { display: block; }
+
+    .settings-panel.active {
+      display: block;
+    }
+
     .toggle-label {
-      display: flex; justify-content: space-between; align-items: center; margin: 8px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 8px 0;
     }
+
     input[type="checkbox"] {
-      width: 40px; height: 20px; position: relative;
-      -webkit-appearance: none; background: #388f38;
-      outline: none; border-radius: 20px;
-      box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
-      transition: background 0.3s; cursor: pointer;
+      width: 40px;
+      height: 20px;
+      position: relative;
+      -webkit-appearance: none;
+      background: #388f38;
+      outline: none;
+      border-radius: 20px;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+      transition: background 0.3s;
+      cursor: pointer;
     }
-    input[type="checkbox"]:checked { background: #fdee00; }
+
+    input[type="checkbox"]:checked {
+      background: #fdee00;
+    }
+
     input[type="checkbox"]::before {
-      content: ''; position: absolute; width: 18px; height: 18px; border-radius: 18px;
-      top: 1px; left: 1px; background: white; transition: 0.3s;
+      content: '';
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      border-radius: 18px;
+      top: 1px;
+      left: 1px;
+      background: white;
+      transition: 0.3s;
     }
-    input[type="checkbox"]:checked::before { left: 21px; }
+
+    input[type="checkbox"]:checked::before {
+      left: 21px;
+    }
+
     .away-gallery {
-      margin: 15px 0 0 0; border: 1px solid #a5c864; border-radius: 4px; padding: 10px;
-      background: #f0fbe7; max-height: 98px; overflow-y: auto; color: #333;
+      margin: 15px 0 0 0;
+      border: 1px solid #a5c864;
+      border-radius: 4px;
+      padding: 10px;
+      background: #f0fbe7;
+      max-height: 98px;
+      overflow-y: auto;
+      color: #333;
     }
+
     .away-item {
-      font-family: 'Courier New', monospace; font-size: 13px; margin-bottom: 6px; cursor: pointer;
-      border-radius: 2px; padding: 4px 6px; background: #eefbe2;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      margin-bottom: 6px;
+      cursor: pointer;
+      border-radius: 2px;
+      padding: 4px 6px;
+      background: #eefbe2;
     }
-    .away-item:hover { background: #d4eecd; }
+
+    .away-item:hover {
+      background: #d4eecd;
+    }
+
     .crt-scanlines::before {
-      content: ''; position: absolute; top: 0; left: 0;
-      width: 100%; height: 100%; pointer-events: none;
-      background: repeating-linear-gradient(
-        0deg, rgba(0,0,0,0.12), rgba(0,0,0,0.12) 1px, transparent 2px, transparent 3px
-      ); z-index: 99; border-radius: 8px;
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) 1px, transparent 2px, transparent 3px);
+      z-index: 99;
+      border-radius: 8px;
     }
-    .monitor-glow { box-shadow: 0 0 20px 5px rgba(56,143,56,0.6) !important; }
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+
+    .monitor-glow {
+      box-shadow: 0 0 20px 5px rgba(56, 143, 56, 0.6) !important;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
   </style>
 </head>
+
 <body>
   <div class="icq-window crt-scanlines monitor-glow" id="icq-window">
     <div class="icq-header">
-      <svg class="status-flower" id="status-flower" viewBox="0 0 24 24" fill="#00FF00"><path d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12,20c-4.41,0-8-3.59-8-8s3.59-8,8-8 s8,3.59,8,8S16.41,20,12,20z M12,6c-3.31,0-6,2.69-6,6s2.69,6,6,6s6-2.69,6-6S15.31,6,12,6z"/></svg>
+      <svg class="status-flower" id="status-flower" viewBox="0 0 24 24" fill="#00FF00">
+        <path
+          d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12,20c-4.41,0-8-3.59-8-8s3.59-8,8-8 s8,3.59,8,8S16.41,20,12,20z M12,6c-3.31,0-6,2.69-6,6s2.69,6,6,6s6-2.69,6-6S15.31,6,12,6z" />
+      </svg>
       ICQ Instant Message
-      <svg class="settings-gear" viewBox="0 0 24 24" tabindex="0" role="button" aria-label="Open settings" onclick="toggleSettings()" onkeypress="if(event.key==='Enter'){toggleSettings();}"><path d="M19.14,12.94a7.14,7.14,0,0,0,0-1.88l2.11-1.65a.5.5,0,0,0,.12-.66l-2-3.46a.5.5,0,0,0-.61-.22l-2.49,1a7.06,7.06,0,0,0-1.62-.94L14.8,4.75a.5.5,0,0,0-.49-.41H9.69a.5.5,0,0,0-.49.41L8.72,6.89a7.06,7.06,0,0,0-1.62.94l-2.49-1a.5.5,0,0,0-.61.22l-2,3.46a.5.5,0,0,0,.12.66l2.11,1.65a7.14,7.14,0,0,0,0,1.88L3.12,14.59a.5.5,0,0,0-.12.66l2,3.46a.5.5,0,0,0,.61.22l2.49-1a7.06,7.06,0,0,0,1.62.94l.97,2.14a.5.5,0,0,0,.49.41h4.61a.5.5,0,0,0,.49-.41l.97-2.14a7.06,7.06,0,0,0,1.62-.94l2.49,1a.5.5,0,0,0,.61-.22l2-3.46a.5.5,0,0,0-.12-.66ZM12,15.5A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/></svg>
+      <svg class="settings-gear" viewBox="0 0 24 24" tabindex="0" role="button" aria-label="Open settings"
+        onclick="toggleSettings()" onkeypress="if(event.key==='Enter'){toggleSettings();}">
+        <path
+          d="M19.14,12.94a7.14,7.14,0,0,0,0-1.88l2.11-1.65a.5.5,0,0,0,.12-.66l-2-3.46a.5.5,0,0,0-.61-.22l-2.49,1a7.06,7.06,0,0,0-1.62-.94L14.8,4.75a.5.5,0,0,0-.49-.41H9.69a.5.5,0,0,0-.49.41L8.72,6.89a7.06,7.06,0,0,0-1.62.94l-2.49-1a.5.5,0,0,0-.61.22l-2,3.46a.5.5,0,0,0,.12.66l2.11,1.65a7.14,7.14,0,0,0,0,1.88L3.12,14.59a.5.5,0,0,0-.12.66l2,3.46a.5.5,0,0,0,.61.22l2.49-1a7.06,7.06,0,0,0,1.62.94l.97,2.14a.5.5,0,0,0,.49.41h4.61a.5.5,0,0,0,.49-.41l.97-2.14a7.06,7.06,0,0,0,1.62-.94l2.49,1a.5.5,0,0,0,.61-.22l2-3.46a.5.5,0,0,0-.12-.66ZM12,15.5A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
+      </svg>
     </div>
     <div class="icq-chat" id="chatbox" aria-live="polite" aria-atomic="true"></div>
     <div class="icq-input-row">
-      <input class="icq-input" id="userinput" type="text" maxlength="80" placeholder="Type your message here..." aria-label="Type your message here">
+      <input class="icq-input" id="userinput" type="text" maxlength="80" placeholder="Type your message here..."
+        aria-label="Type your message here">
       <button class="icq-send-btn" onclick="sendMsg()" aria-label="Send message">Send</button>
     </div>
   </div>
 
   <section id="timeline">
     <h2>Timeline</h2>
-    <p>ICQ launched in 1996, setting the standard for online chat. AOL bought it in 1998. Mail.ru ran it after 2010. ICQ shut down on June 26, 2024, but its spirit lives on.</p>
+    <p>ICQ launched in 1996, setting the standard for online chat. AOL bought it in 1998. Mail.ru ran it after 2010. ICQ
+      shut down on June 26, 2024, but its spirit lives on.</p>
   </section>
   <section id="uin-wall">
     <h2>User Identification Numbers (UINs)</h2>
     <p>Every ICQ user had a unique numeric ID called a UIN. Low numbers were badges of honor. Want one?</p>
     <button onclick="generateUIN()" aria-label="Generate random UIN">Mint a vanity UIN</button>
-    <p id="uin-display" style="margin-top: 5px; font-weight: bold; color: #388f38; font-family: 'Courier New', monospace;"></p>
+    <p id="uin-display"
+      style="margin-top: 5px; font-weight: bold; color: #388f38; font-family: 'Courier New', monospace;"></p>
   </section>
   <section id="presence">
     <h2>Status and Presence</h2>
@@ -217,15 +466,20 @@
     <h2>Away Messages & Emoticons</h2>
     <p>Pick a classic away message or early emoticon. ICQ brought personality to chats.</p>
     <div class="away-gallery" aria-label="Away messages gallery" role="list">
-      <div tabindex="0" class="away-item" onclick="setAwayStatus(':)')" onkeypress="if(event.key==='Enter') setAwayStatus(':)')" role="listitem">I'm away, leave a message :)</div>
-      <div tabindex="0" class="away-item" onclick="setAwayStatus(':*)')" onkeypress="if(event.key==='Enter') setAwayStatus(':*)')" role="listitem">Busy, but send laughs :*)</div>
-      <div tabindex="0" class="away-item" onclick="setAwayStatus(';-))')" onkeypress="if(event.key==='Enter') setAwayStatus(';-))')" role="listitem">Back soon ;-))</div>
-      <div tabindex="0" class="away-item" onclick="setAwayStatus('^_^')" onkeypress="if(event.key==='Enter') setAwayStatus('^_^')" role="listitem">Enjoying today ^_^</div>
+      <div tabindex="0" class="away-item" onclick="setAwayStatus(':)')"
+        onkeypress="if(event.key==='Enter') setAwayStatus(':)')" role="listitem">I'm away, leave a message :)</div>
+      <div tabindex="0" class="away-item" onclick="setAwayStatus(':*)')"
+        onkeypress="if(event.key==='Enter') setAwayStatus(':*)')" role="listitem">Busy, but send laughs :*)</div>
+      <div tabindex="0" class="away-item" onclick="setAwayStatus(';-))')"
+        onkeypress="if(event.key==='Enter') setAwayStatus(';-))')" role="listitem">Back soon ;-))</div>
+      <div tabindex="0" class="away-item" onclick="setAwayStatus('^_^')"
+        onkeypress="if(event.key==='Enter') setAwayStatus('^_^')" role="listitem">Enjoying today ^_^</div>
     </div>
   </section>
   <section id="culture-card">
     <h2>ICQ Culture & Legacy</h2>
-    <p>ICQ made online presence real, gave us the sound of friendship, and taught millions how to connect fast and for free.</p>
+    <p>ICQ made online presence real, gave us the sound of friendship, and taught millions how to connect fast and for
+      free.</p>
   </section>
   <section id="obituary-card">
     <h2>Farewell</h2>
@@ -233,9 +487,11 @@
   </section>
 
   <div class="footer-plaque">
-    <p>Digital artifact unearthed and preserved by UIN 641658 (<a href="https://unearth.im" target="_blank" rel="noopener noreferrer">unearth.im</a>)</p>
+    <p>Digital artifact unearthed and preserved by UIN 641658 (<a href="https://unearth.im" target="_blank"
+        rel="noopener noreferrer">unearth.im</a>)</p>
     <p style="font-size: 9px; margin-top: 10px; color: #aab5f0;">
-      uhoh.im is an unofficial, non-commercial fan tribute and digital monument to the ICQ messenger. All trademarks, logos, and sounds are the property of their respective owners. This site is not affiliated with or endorsed by VK.
+      uhoh.im is an unofficial, non-commercial fan tribute and digital monument to the ICQ messenger. All trademarks,
+      logos, and sounds are the property of their respective owners. This site is not affiliated with or endorsed by VK.
     </p>
   </div>
   <audio id="uhohsnd" src="https://www.myinstants.com/media/sounds/icq-uh-oh.mp3" preload="auto"></audio>
@@ -247,7 +503,8 @@
     <label class="toggle-label">Monitor Glow <input type="checkbox" id="monitor-glow" checked></label>
     <label class="toggle-label">Nostalgia Sounds <input type="checkbox" id="nostalgia-sounds"></label>
     <label class="toggle-label">Show Away Gallery <input type="checkbox" id="away-gallery-toggle" checked></label>
-    <label class="toggle-label">Show Cross Client Badges <input type="checkbox" id="cross-client-badges" checked></label>
+    <label class="toggle-label">Show Cross Client Badges <input type="checkbox" id="cross-client-badges"
+        checked></label>
   </div>
 
   <script>
@@ -287,12 +544,12 @@
       userinput.value = '';
       const lowerMsg = msg.toLowerCase();
       let reply = easterEggPhrases[Object.keys(easterEggPhrases).find(key => lowerMsg.includes(key))] || getRandomReply();
-      
+
       const sender = senders[Math.floor(Math.random() * senders.length)];
       const typingIndicator = appendSystemMsg(`${sender} is typing...`);
-      
+
       const replyDelay = Math.random() * 1000 + 500; // Random delay between 500ms and 1500ms
-      
+
       setTimeout(() => {
         chatbox.removeChild(typingIndicator);
         appendBotMsg(reply, sender);
@@ -321,12 +578,12 @@
     }
 
     function appendSystemMsg(msg) {
-        const div = document.createElement('div');
-        div.className = 'system-msg';
-        div.textContent = msg;
-        chatbox.appendChild(div);
-        chatbox.scrollTop = chatbox.scrollHeight;
-        return div;
+      const div = document.createElement('div');
+      div.className = 'system-msg';
+      div.textContent = msg;
+      chatbox.appendChild(div);
+      chatbox.scrollTop = chatbox.scrollHeight;
+      return div;
     }
 
     function getRandomReply() {
@@ -373,16 +630,16 @@
     }
 
     // Toggles
-    document.getElementById('crt-scanlines').addEventListener('change', function(e){
+    document.getElementById('crt-scanlines').addEventListener('change', function (e) {
       windowDiv.classList.toggle('crt-scanlines', e.target.checked);
     });
-    document.getElementById('monitor-glow').addEventListener('change', function(e){
+    document.getElementById('monitor-glow').addEventListener('change', function (e) {
       windowDiv.classList.toggle('monitor-glow', e.target.checked);
     });
-    document.getElementById('away-gallery-toggle').addEventListener('change', function(e){
+    document.getElementById('away-gallery-toggle').addEventListener('change', function (e) {
       document.getElementById('away-gallery-section').style.display = e.target.checked ? 'block' : 'none';
     });
-    document.getElementById('cross-client-badges').addEventListener('change', function(e){
+    document.getElementById('cross-client-badges').addEventListener('change', function (e) {
       document.getElementById('cross-client').style.display = e.target.checked ? 'block' : 'none';
     });
 
@@ -391,4 +648,5 @@
     document.getElementById('cross-client').style.display = document.getElementById('cross-client-badges').checked ? 'block' : 'none';
   </script>
 </body>
+
 </html>
